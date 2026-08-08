@@ -45,12 +45,7 @@ img { max-width: 100%; }
 .bar-utiliti .kanan a { padding: 0 10px; border-right: 1px solid rgba(255,255,255,0.2); }
 .bar-utiliti .kanan a:last-child { border-right: none; padding-right: 0; }
 .jata-kecil {
-  width: 20px; height: 20px;
-  background: var(--accent);
-  border-radius: 50%;
-  display: inline-flex; align-items: center; justify-content: center;
-  font-size: 9px; font-weight: 700; color: var(--primary-dk);
-  flex-shrink: 0;
+  display: none;
 }
 
 /* ============================================

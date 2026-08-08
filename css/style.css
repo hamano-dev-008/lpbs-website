@@ -6,14 +6,14 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --primary:     #0F4C81;
-  --primary-dk:  #0a3258;
-  --mid:         #1A6BB5;
-  --accent:      #E0AA50;
-  --accent-cerah:#F0C060;
-  --hijau-muda:  #E8F2FC;
-  --latar:       #F0F6FC;
-  --sempadan:    #C5DDF4;
+  --primary:     #154360;
+  --primary-dk:  #0d2d42;
+  --mid:         #1F618D;
+  --accent:      #CA8A04;
+  --accent-cerah:#E0A010;
+  --hijau-muda:  #D6EAF8;
+  --latar:       #EBF5FB;
+  --sempadan:    #AED6F1;
   --teks-gelap:  #1a1a1a;
   --teks-kelabu: #555;
   --font: 'Segoe UI', Arial, sans-serif;
@@ -242,7 +242,7 @@ img { max-width: 100%; }
    HERO BANNER
    ============================================ */
 .hero {
-  background: linear-gradient(135deg, #061e3a 0%, var(--primary) 45%, var(--mid) 100%);
+  background: linear-gradient(135deg, #07192a 0%, var(--primary) 45%, var(--mid) 100%);
   position: relative;
   overflow: hidden;
   padding: 100px 24px;

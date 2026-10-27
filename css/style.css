@@ -816,3 +816,77 @@ img { max-width: 100%; }
   .statistik-grid { grid-template-columns: 1fr 1fr; }
   .stat-nombor { font-size: 30px; }
 }
+
+.seksyen-facebook {
+  background: #f0f4f8;
+  padding: 70px 0;
+}
+.facebook-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.fb-page-container {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(21,67,96,0.12);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.facebook-cta {
+  padding: 16px 0;
+}
+.fb-cta-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.facebook-cta h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #154360;
+  margin-bottom: 12px;
+}
+.facebook-cta p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.fb-cta-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 28px;
+}
+.fb-cta-list li {
+  font-size: 14px;
+  color: #333;
+  padding: 6px 0;
+  border-bottom: 1px solid #e0e8f0;
+}
+.btn-facebook {
+  display: inline-block;
+  background: #1877F2;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 13px 28px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.btn-facebook:hover {
+  background: #1560c8;
+  transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  .facebook-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .fb-page-container iframe {
+    width: 100%;
+    max-width: 340px;
+  }
+}

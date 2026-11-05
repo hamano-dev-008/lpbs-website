@@ -1,0 +1,34 @@
+body { background: var(--latar); }
+[hidden] { display: none !important; }
+.admin-header { background: var(--primary); color: white; padding: 32px max(24px, calc((100% - 1120px)/2)); display:flex; justify-content:space-between; align-items:center; gap:24px; }
+.admin-header h1 { font-size:30px; margin:8px 0; }
+.admin-header p { color:var(--hijau-muda); line-height:1.6; }
+.eyebrow { font-size:11px; letter-spacing:1.5px; }
+main { max-width:1168px; padding:24px; margin:auto; }
+h2 { color:var(--primary); font-size:21px; margin-bottom:18px; }
+.panel { padding:28px; border:1px solid var(--sempadan); border-radius:10px; background:white; }
+.login { max-width:560px; margin:24px auto; }
+.login p { line-height:1.7; }
+label { display:block; font-size:14px; font-weight:600; margin:20px 0 8px; }
+input:not([type=checkbox]),select,textarea { width:100%; padding:12px; font:inherit; border:1px solid var(--sempadan); border-radius:6px; background:white; color:var(--teks-gelap); }
+textarea { resize:vertical; }
+.semak { display:flex; align-items:center; gap:10px; }
+button { cursor:pointer; font:600 14px var(--font); background:var(--primary); color:white; border:1px solid var(--primary); border-radius:6px; padding:12px 18px; min-height:44px; }
+button:hover { background:var(--primary-dk); }
+button:disabled { opacity:.5; cursor:not-allowed; }
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+.nota { color:var(--teks-kelabu); font-size:13px; line-height:1.7; margin:8px 0 18px; }
+.tabs { display:flex; flex-wrap:wrap; gap:8px; margin:22px 0 28px; border-bottom:1px solid var(--sempadan); padding-bottom:16px; }
+.tabs button { background:white; color:var(--primary); }
+.tabs button[aria-pressed=true] { background:var(--primary); color:white; }
+.editor-grid { display:grid; grid-template-columns:minmax(0,1.25fr) minmax(0,1fr); gap:32px; align-items:start; }
+.editor-grid aside { position:sticky; top:24px; }
+.admin-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr)); gap:24px; }
+.admin-list>div { min-width:0; }
+.actions { display:flex; flex-wrap:wrap; gap:10px; margin:14px 0; }
+.tolak { background:white; color:var(--primary); }
+.section-heading { display:flex; justify-content:space-between; gap:20px; align-items:center; margin-bottom:20px; }
+#status:not(:empty) { background:white; border-left:4px solid var(--accent); padding:16px; margin-bottom:24px; overflow-wrap:anywhere; }
+#status.ralat { border-color:#b42318; color:#8a1b12; }
+.kad-berita h3,.kad-berita p { overflow-wrap:anywhere; white-space:pre-wrap; }
+@media(max-width:700px) { main { padding:18px; } .admin-header { padding:24px 18px; align-items:flex-start; flex-direction:column; } .editor-grid { grid-template-columns:1fr; gap:24px; } .editor-grid aside { position:static; } .panel { padding:20px; } .section-heading { align-items:flex-start; flex-direction:column; } .tabs button { flex:1 1 130px; } }

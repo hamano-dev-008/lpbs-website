@@ -890,6 +890,3 @@ img { max-width: 100%; }
     max-width: 340px;
   }
 }
-
-/* Gambar kad berita dinamik */
-.berita-gambar { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
